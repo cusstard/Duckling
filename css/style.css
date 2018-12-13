@@ -1,0 +1,252 @@
+#header{
+background-image:url("../img/nav.png");
+z-index:4;
+}
+
+#container{
+  display:grid;
+}
+
+.header{
+  display:inline;
+  float:right;
+  height:50px;
+ margin: 0 20px 0 0;
+}
+
+.signup{
+ color:white;
+ text-decoration:none;
+ font-family: 'Share', cursive;
+ font-size:17px;
+ margin: 17px 0 0 25px;
+ float:left;
+ z-index:4;
+position:absolute;
+text-align:center;
+}
+
+#btn1{
+  z-index:2;
+  float:right;
+  margin: 10px 0 0 0;
+}
+#btn2{
+  z-index:2;
+  float:right;
+  margin: 10px 0 0 0;
+}
+
+.icon{
+  opacity:0.65;
+}
+
+.roomcontain{
+  width:60%;
+  text-align:center;
+}
+
+#roomcontain{
+  width:700px;
+  text-align:center;
+}
+
+#mainimg{
+  z-index:1;
+  float:left;
+}
+
+#rect{
+  z-index:2;
+  float:left;
+  position:absolute;
+}
+
+#start{
+  z-index:3;
+  float:left;
+  position:absolute;
+  margin:30px 0 0 80px;
+}
+
+#cities{
+  width:200px;
+  height:30px;
+  border-radius:5px;
+  color:#98CECD;
+  font-family: 'Share', cursive;
+  font-size:15px;
+}
+
+h2{
+  font-family: 'Itim', cursive;
+  color:#98CECD;
+  text-align:center;
+}
+
+h1{
+  font-family: 'Itim', cursive;
+  color:#98CECD;
+  text-align:center;
+}
+
+.contain{
+	text-align:center;
+}
+
+button{
+  color:white;
+  background-color:#98CECD;
+  width:200px;
+  height:40px;
+  text-align:center;
+  border-radius:7px;
+  font-family: 'Share', cursive;
+  font-size:18px;
+}
+
+.but{
+  color:white;
+  background-image:url("../img/button1.png");
+  background-size:200px 40px;
+  width:200px;
+  height:40px;
+  text-align:center;
+  border:0px;
+  font-family: 'Share', cursive;
+  font-size:18px;
+}
+
+#search{
+  text-decoration:none;
+  color:white;
+  font-family: 'Share', cursive;
+  font-size:18px;
+}
+
+.row{
+  display:inline;
+  text-align:center;
+}
+
+.col{
+  width:250px;
+  height:250px;
+  background-image:url("../img/card.png");
+  background-size: 250px 250px;
+  float:left;
+  margin: 20px 20px 0 0;
+}
+
+.titles{
+  color:white;
+  font-family: 'Share', cursive;
+  font-size:20px;
+}
+
+.else_t{
+  float:left;
+  margin: 0 0 0 20px;
+}
+
+.else{
+  width:210px;
+  color:#98CECD;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:15px;
+  text-align:left;
+}
+
+#room1{
+float:left;
+  margin: 0 0 0 20px;
+}
+
+#room2{
+float:left;
+  margin: 30px 0 0 20px;
+}
+
+
+.roomimg{
+  float:left;
+  margin: 0 0 0 20px;
+}
+
+.roomdesc{
+  float:left;
+  margin: 0 0 0 20px;
+  width:60%;
+}
+
+.desc{
+  font-family: 'Ubuntu', sans-serif;
+  color:rgb(90, 90, 90);
+  font-size:18px;
+}
+
+.desc2{
+  font-family: 'Ubuntu', sans-serif;
+  color:rgb(90, 90, 90);
+  font-size:18px;
+}
+
+.desc1{
+  font-family: 'Ubuntu', sans-serif;
+  color:rgb(90, 90, 90);
+  font-size:15px;
+}
+
+.roomlink{
+  color:#98CECD;
+  text-decoration:none;
+  font-size:15px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.room1desc{
+width:500px;
+text-align:center;
+margin: 0 0 0 100px;
+}
+
+table{
+ font-family: 'Ubuntu', sans-serif;
+  color:rgb(90, 90, 90);
+  font-size:15px;
+}
+
+.thumbnail {
+  max-height: 55%;
+}
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(75, 75, 75, 0.6);
+}
+
+.lightbox img {
+	max-height: 80%;	
+  max-width: 90%;	
+}
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+#gallery{
+text-align:center;
+}

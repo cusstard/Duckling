@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Duckling - find a place to stay anywhere</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Itim|Share|Ubuntu" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div id="header"><a href="../index.php"><img src="../img/logo.png" width="150px" alt="logo"></a>
+      <div class="header"><div id="btn1">
+        <img src="../img/button2.png" width="100px" alt="logo"></div>
+        <a href="login.html" class="signup">LOGIN</a></div>
+      <div class="header"><div id="btn2">
+        <img src="../img/button2.png" width="100px" alt="logo"></div>
+        <a href="signup.html" class="signup">SIGN UP</a></div>
+      </div>
+    </header>
+    <nav>
+    </nav>
+    <main>
+      <h1>Log in to your account</h1><br>
+      <div class="contain">
+      <!--
+      when you write email and password in the form it will get stored in an array POST and then you can access them in profile.php by wrtiting the variable name $_POST['email', 'psw'];
+     -->
+      
+      <form method="POST" action="../php/profile.php">
+      <label for="email" class="desc1">Email</label>
+      <input type="text" name="email" id="email">
+      <br><br>
+      <label for="psw" class="desc1">Password</label>
+      <input type="text" name="psw" id="psw">
+      <br><br>
+      <input type="submit" name="login" value="Login" class="but">
+      </form>
+      <p class="desc1">Don't have an account? <a href="signup.html" class="desc1">Sign up</a></p>
+      
+      </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
